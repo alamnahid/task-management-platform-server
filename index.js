@@ -7,9 +7,9 @@ const port = process.env.PORT || 5000;
 //middleware
 app.use(cors({
   origin: [
-    'http://localhost:5173',
-    // 'https://task-manage-e82d0.web.app',
-    // 'https://task-manage-e82d0.firebaseapp.com'
+    // 'http://localhost:5173',
+    'https://best-task-manager.web.app',
+    'https://best-task-manager.firebaseapp.com'
   ],
   credentials: true
 }));
